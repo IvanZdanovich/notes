@@ -18,6 +18,37 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "93c408f60877c0d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Testing/Requirements Management.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "e0f148ce4f10f823",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dcc88ab42741501a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Testing/Requirements Management.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -85,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Testing/Requirements Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Testing/Requirements Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +156,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Testing/Requirements Management.md"
               }
             }
+          },
+          {
+            "id": "a8a6582fefc9f0a0",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,6 +185,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a8ae83b7780c71f9",
-  "lastOpenFiles": []
+  "active": "dcc88ab42741501a",
+  "lastOpenFiles": [
+    "General/Managing a Family Tree in a GitHub Repository.md",
+    "Testing/Requirements Management.md",
+    "README.md",
+    "General",
+    "Testing",
+    "Untitled.canvas"
+  ]
 }
