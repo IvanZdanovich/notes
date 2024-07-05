@@ -46,42 +46,65 @@ collaborative environment for the team. By centralizing requirements in the same
 ## Pros and Cons
 
 ### Pros of Integrating Requirements with Codebase
-- Enhanced Test Coverage Tracking 
-  - Precise Metrics: By linking tests directly to atomic requirements, coverage metrics become more accurate, allowing teams to identify gaps and ensure comprehensive testing.
-  - Automatic Calculations: Eliminates the need for external tools to calculate test coverage, streamlining the process and reducing dependency on third-party integrations.
+
+- Enhanced Test Coverage Tracking
+    - Precise Metrics: By linking tests directly to atomic requirements, coverage metrics become more accurate, allowing
+      teams to identify gaps and ensure comprehensive testing.
+    - Automatic Calculations: Eliminates the need for external tools to calculate test coverage, streamlining the
+      process and reducing dependency on third-party integrations.
 - Improved Traceability
-  - Direct Linking: Test cases are directly linked to specific requirements, enhancing traceability and making it easier to identify which tests validate which requirements.
-  - Easier Impact Analysis: Changes in requirements can be traced back to affected tests quickly, aiding in impact analysis and reducing the risk of untested changes.
+    - Direct Linking: Test cases are directly linked to specific requirements, enhancing traceability and making it
+      easier to identify which tests validate which requirements.
+    - Easier Impact Analysis: Changes in requirements can be traced back to affected tests quickly, aiding in impact
+      analysis and reducing the risk of untested changes.
 - Centralized Requirement Management
-  - Single Source of Truth: Requirements are stored alongside the tests, providing a centralized and consistent source of information for all team members.
-  - Platform Independence: Removes dependency on external platforms (like Confluence) for requirement storage, making them readily accessible within the codebase.
+    - Single Source of Truth: Requirements are stored alongside the tests, providing a centralized and consistent source
+      of information for all team members.
+    - Platform Independence: Removes dependency on external platforms (like Confluence) for requirement storage, making
+      them readily accessible within the codebase.
 - Streamlined Test Suite Management
-  - Redundancy Detection: Easier identification and removal of redundant or outdated requirements, leading to a more streamlined and relevant test suite.
-  - Clear Logging: Direct access to requirements in test descriptions reduces duplication and rephrasing, simplifying test logging and documentation.
+    - Redundancy Detection: Easier identification and removal of redundant or outdated requirements, leading to a more
+      streamlined and relevant test suite.
+    - Clear Logging: Direct access to requirements in test descriptions reduces duplication and rephrasing, simplifying
+      test logging and documentation.
 - Facilitated Collaboration
-  - Team Consistency: Ensures all team members work with the same set of requirements, promoting consistency in test development and execution.
-  - Simplified Updates: Requirements and test cases can be updated in tandem, reducing the likelihood of discrepancies and easing collaboration across roles.
+    - Team Consistency: Ensures all team members work with the same set of requirements, promoting consistency in test
+      development and execution.
+    - Simplified Updates: Requirements and test cases can be updated in tandem, reducing the likelihood of discrepancies
+      and easing collaboration across roles.
 - Efficient Onboarding and Learning
-  - Encourages Deep Understanding: Forces team members to understand the application structure and functionality, enhancing their overall comprehension and engagement with the project.
+    - Encourages Deep Understanding: Forces team members to understand the application structure and functionality,
+      enhancing their overall comprehension and engagement with the project.
 - Improved Requirement Quality
-  - Iterative Refinement: Continuous integration of requirements with test cases encourages regular review and refinement, leading to higher-quality requirements over time.
+    - Iterative Refinement: Continuous integration of requirements with test cases encourages regular review and
+      refinement, leading to higher-quality requirements over time.
 
 ### Cons of Integrating Requirements with Cypress
+
 - Graduated Implementation and Delayed Benefits
-  - Incremental Adaptation: Integrating requirements into existing test cases is a gradual process. The benefits of precise coverage and streamlined management will only be fully realized after refactoring the entire test suite.
+    - Incremental Adaptation: Integrating requirements into existing test cases is a gradual process. The benefits of
+      precise coverage and streamlined management will only be fully realized after refactoring the entire test suite.
 - Initial Overhead and Learning Curve
-  - Steep Learning Curve: Significant initial investment in learning the new conventions and structures, which can slow down productivity during the onboarding process.
+    - Steep Learning Curve: Significant initial investment in learning the new conventions and structures, which can
+      slow down productivity during the onboarding process.
 - Increased Complexity in Test Management
-  - Management Overhead: Adds complexity to the testing process by requiring ongoing management of both requirements and test cases, including keeping them up-to-date and correctly linked.
-  - Risk of Duplication: Potential for duplication or overlapping of requirements if not managed carefully, leading to confusion and inefficiencies in test execution.
+    - Management Overhead: Adds complexity to the testing process by requiring ongoing management of both requirements
+      and test cases, including keeping them up-to-date and correctly linked.
+    - Risk of Duplication: Potential for duplication or overlapping of requirements if not managed carefully, leading to
+      confusion and inefficiencies in test execution.
 - Potential for Misalignment
-  - Mismatch Risks: There's a risk of misalignment between requirements and test cases, especially if requirements are updated without corresponding changes in the tests. This can reduce the accuracy of test validation.
-  - Version Control Challenges: Synchronizing requirements with evolving test cases and application changes can be difficult, particularly in large or rapidly changing projects.
+    - Mismatch Risks: There's a risk of misalignment between requirements and test cases, especially if requirements are
+      updated without corresponding changes in the tests. This can reduce the accuracy of test validation.
+    - Version Control Challenges: Synchronizing requirements with evolving test cases and application changes can be
+      difficult, particularly in large or rapidly changing projects.
 - Initial Resource Investment
-  - Setup Time: Requires a substantial upfront investment in time and resources to create requirement files, index them, and integrate them with test cases.
-  - Resource Allocation: Allocating resources to implement and maintain this approach may divert attention from other critical tasks, impacting project timelines and priorities.
+    - Setup Time: Requires a substantial upfront investment in time and resources to create requirement files, index
+      them, and integrate them with test cases.
+    - Resource Allocation: Allocating resources to implement and maintain this approach may divert attention from other
+      critical tasks, impacting project timelines and priorities.
 - Adaptation to Project Dynamics
-  - Scalability Concerns: As the project scales or evolves, the initial structure and conventions may need significant adjustments, potentially leading to rework and adaptation challenges.
+    - Scalability Concerns: As the project scales or evolves, the initial structure and conventions may need significant
+      adjustments, potentially leading to rework and adaptation challenges.
 
 ## Structure
 
@@ -99,7 +122,9 @@ requirements/
 
 ## Index Convention
 
-Indexes should simplify the search of particular requirement. Each part of index should be defined in convention. In future it will allow to implement automatic verification of indeces. Here is an example of convention, and index template:
+Indexes should simplify the search of particular requirement. Each part of index should be defined in convention. In
+future it will allow to implement automatic verification of indeces. Here is an example of convention, and index
+template:
 
 - **Prefix**: Use a prefix to distinguish between UI and API requirements.
 - UI: `UI-`
@@ -114,7 +139,9 @@ Indexes should simplify the search of particular requirement. Each part of index
 
 ## Creation
 
-The indexing system should streamline the search for specific requirements. Each part of the index must adhere to a defined convention, facilitating future implementation of automatic index verification. Below is an example of the convention and an index template:
+The indexing system should streamline the search for specific requirements. Each part of the index must adhere to a
+defined convention, facilitating future implementation of automatic index verification. Below is an example of the
+convention and an index template:
 
 ### Example
 
