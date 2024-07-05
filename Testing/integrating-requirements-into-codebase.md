@@ -69,9 +69,7 @@ collaborative environment for the team. By centralizing requirements in the same
 ### Cons of Integrating Requirements with Cypress
 - Graduated Implementation and Delayed Benefits
   - Incremental Adaptation: Integrating requirements into existing test cases is a gradual process. The benefits of precise coverage and streamlined management will only be fully realized after refactoring the entire test suite.
-  - Temporary Inconsistencies: During the transition period, a mix of old and new methods might lead to inconsistencies in coverage and test management.
 - Initial Overhead and Learning Curve
-  - Complex Understanding Required: Accurate creation and indexing of requirements demand a deep understanding of the application's structure, which can be challenging for new or less experienced team members.
   - Steep Learning Curve: Significant initial investment in learning the new conventions and structures, which can slow down productivity during the onboarding process.
 - Increased Complexity in Test Management
   - Management Overhead: Adds complexity to the testing process by requiring ongoing management of both requirements and test cases, including keeping them up-to-date and correctly linked.
@@ -79,9 +77,6 @@ collaborative environment for the team. By centralizing requirements in the same
 - Potential for Misalignment
   - Mismatch Risks: There's a risk of misalignment between requirements and test cases, especially if requirements are updated without corresponding changes in the tests. This can reduce the accuracy of test validation.
   - Version Control Challenges: Synchronizing requirements with evolving test cases and application changes can be difficult, particularly in large or rapidly changing projects.
-- Tooling and Integration Challenges
-  - Compatibility Issues: Integrating requirements directly with Cypress or other testing frameworks might introduce compatibility challenges or require additional tooling.
-  - Dependency on JSON: Relying on JSON files for requirements might limit flexibility, especially if the project's complexity grows beyond what simple JSON representation can handle.
 - Initial Resource Investment
   - Setup Time: Requires a substantial upfront investment in time and resources to create requirement files, index them, and integrate them with test cases.
   - Resource Allocation: Allocating resources to implement and maintain this approach may divert attention from other critical tasks, impacting project timelines and priorities.
@@ -104,7 +99,7 @@ requirements/
 
 ## Index Convention
 
-Indexes should be created following this template:
+Indexes should simplify the search of particular requirement. Each part of index should be defined in convention. In future it will allow to implement automatic verification of indeces. Here is an example of convention, and index template:
 
 - **Prefix**: Use a prefix to distinguish between UI and API requirements.
 - UI: `UI-`
@@ -119,10 +114,7 @@ Indexes should be created following this template:
 
 ## Creation
 
-To avoid redundancy while describing common requirements for specific elements, use a modular approach. Create a  
-centralized section for common requirements that can be referenced by multiple subcomponents. This way, you only need
-to  
-define the common requirements once.
+The indexing system should streamline the search for specific requirements. Each part of the index must adhere to a defined convention, facilitating future implementation of automatic index verification. Below is an example of the convention and an index template:
 
 ### Example
 
@@ -243,7 +235,7 @@ describe('Action Tests', () => {
         cy.get('.error-message').should('have.css', 'color', 'red');
     });
 });  
-```  
+```
 
 3. **Extract Requirement IDs from Test Descriptions**
 
