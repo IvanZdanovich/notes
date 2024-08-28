@@ -13,3 +13,14 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
 theme: minima
+title: Ivan’s Notes and Musings
+description: A collection of insights and thoughts on software testing, automation, and more from an SDET’s perspective
+navigation:
+  - name: Home
+    link: /
+  - name: About
+    link: /about/
+  - name: Notes
+    link: /notes/
+  - name: Contact
+    link: /contact/
