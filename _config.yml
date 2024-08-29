@@ -16,6 +16,3 @@ include:
 remote_theme: pages-themes/cayman@v0.2.0
 title: Ivan’s Notes and Musings
 description: A collection of insights and thoughts on software testing, automation, and more from an SDET’s perspective
-navigation:
-  - name: Home
-    link: /README.md
