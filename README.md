@@ -4,10 +4,10 @@ This repository is dedicated to sharing my personal views and ideas, primarily f
 
 ## You Might Be Interested In
 
-[Test Automation Doesn't Work](Testing/test-automation-does-not-work.md)
-[Requirements integration practical approach](Testing/requirements-integration-practical-approach.md)
-[Naming Conventions First](Testing/naming-convention-first.md)
-[Test Tagging Strategy Without Tags](Testing/tagging-strategy.md)
+- [Test Automation Doesn't Work](Testing/test-automation-does-not-work.md)
+- [Requirements integration practical approach](Testing/requirements-integration-practical-approach.md)
+- [Naming Conventions First](Testing/naming-convention-first.md)
+- [Test Tagging Strategy Without Tags](Testing/tagging-strategy.md)
 
 ### Usage
 
