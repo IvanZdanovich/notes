@@ -88,5 +88,5 @@ You can also combine or exclude specific tags:
     ```
 - **Exclude Tags**:
     ```bash
-    test-runner --tags='@e2e' --exclude='@negative'
+    test-runner --exclude='@negative'
     ```

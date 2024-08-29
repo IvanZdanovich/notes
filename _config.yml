@@ -1,5 +1,6 @@
 plugins:
   - jekyll-relative-links
+  - jekyll-remote-theme
 relative_links:
   enabled: true
   collections: true
@@ -12,15 +13,9 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-theme: minima
+remote_theme: pages-themes/cayman@v0.2.0
 title: Ivan’s Notes and Musings
 description: A collection of insights and thoughts on software testing, automation, and more from an SDET’s perspective
 navigation:
   - name: Home
-    link: /
-  - name: About
-    link: /about/
-  - name: Notes
-    link: /notes/
-  - name: Contact
-    link: /contact/
+    link: /README.md
