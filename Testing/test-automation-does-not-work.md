@@ -25,11 +25,11 @@ probably right. Here are some signs that your project might be falling short:
    developers, or testers, you lack stable expected results. In modern projects, especially those with limited budgets
    for business analysts, the best approach is to store requirements within the test code base as expected results. For
    more details, check out my approach
-   in [requirements-integration-practical-approach.md](requirements-integration-practical-approach.md).
+   in [Integrating Requirements into the Codebase](requirements-integration-practical-approach.md).
 
 6. **Generic Test Tags**: Using generic tags like smoke or regression for filtering your test suite is not effective.
    Instead, filter tests using clear and straightforward characteristics that are not subject to change. For more
-   insights, see my post on [tagging-strategy.md](tagging-strategy.md).
+   insights, see my post on [Test Tagging Strategy Without Tags](tagging-strategy.md).
 
 7. **Multiple Checks in One Block**: Follow the rule of one requirement per check. Checks should be atomic and granular.
    Without this, any metrics based on tests, from coverage to duration, will be inaccurate, and maintaining test cases
@@ -44,5 +44,3 @@ Do you know any testing project without these issues? If so, you're lucky. Most 
 source code as they should be, which is why tests and test automation are necessary. To bring value, test automation
 must be more precise than the code being tested. This requires more restrictions and responsibility. If these properties
 can't be provided in your test automation, it might not be worth starting.
-
----

@@ -19,5 +19,3 @@ Here are some examples of more functional tags:
 
 While these tags are not inherently bad, a consistent approach based on project structure and proper grouping of tests
 within test files can often eliminate the need for any tags.
-
----
