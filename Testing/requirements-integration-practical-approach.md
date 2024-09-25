@@ -2,9 +2,15 @@
 
 ## Preface
 
-In the original article, [Integrating Requirements into the Codebase](integrating-requirements-into-codebase.md), the approach suggested was quite complex, involving a parallel hierarchy of requirement files. Here, I propose a simpler method: embedding requirements directly within test block descriptions or reusable commands. This makes the relationship between requirements and tests clear and streamlines test management.
+In the original article, [Integrating Requirements into the Codebase](integrating-requirements-into-codebase.md), the
+approach suggested was quite complex, involving a parallel hierarchy of requirement files. Here, I propose a simpler
+method: embedding requirements directly within code block descriptions. This makes the relationship
+between requirements and tests clear and streamlines test management.
 
-Managing an increasing number of end-to-end (E2E) tests in software projects can be challenging, especially as scenarios grow more complex. Often, requirements are incomplete or poorly described, leading to inefficiencies and unclear outcomes. By embedding each requirement directly within your test descriptions, you can improve clarity and streamline test management.
+Managing an increasing number of tests in software projects is a challenge, especially as scenarios
+grow more complex. Often, requirements are incomplete or poorly described, leading to inefficiencies and unclear
+outcomes. By embedding each requirement directly within descriptions of test code blocks, you can improve clarity and streamline
+test management.
 
 ## Table of Contents
 
@@ -30,61 +36,68 @@ Embedding requirements within test descriptions helps:
 
 ### Pros
 
-- **Enhanced Coverage Tracking**: Accurate metrics without external tools.
+- **No third party dependencies**: No need to spent time and money on third party tools for requirement and test management.
 - **Improved Traceability**: Direct links and easier impact analysis.
 - **Centralized Management**: Requirements are embedded in the test descriptions.
 - **Streamlined Test Suite**: Easier identification and removal of redundant requirements.
-- **Facilitated Collaboration**: Everyone is on the same page.
+- **Facilitated Collaboration**: The whole process from .
 - **Efficient Onboarding**: Encourages deep understanding of the project.
-- **Improved Requirement Quality**: Regular review and refinement.
+- **Improved Requirement Quality**: Requirements are described on low level, and more clear and precise.
+- **Improved Test Quality**: Tests are more accurate and clear.
+- **Accurate Metrics**: All the metrics based on such tests have maximum precision.
+- **Chip maintenance** You can easily locate and manage any requirements and related tests.
 
 ### Cons
 
-- **Gradual Implementation**: Benefits accrue as test cases are updated.
+- **Gradual Benefits**: Benefits accrue during maintenance and updating of requirements.
 - **Initial Learning Curve**: Requires time to learn the new system.
-- **Increased Complexity**: Requires ongoing management of requirements and tests.
-- **Potential Misalignment**: Risk of requirements and tests getting out of sync.
-- **Resource Investment**: Upfront time and resources needed for setup.
+- **Implementation Complexity**: As any accurate system requires careful and accurate attitude.
+- **Resource Investment**: Upfront time and resources needed for setup and implementation.
 
 ## Implementation
 
-Instead of a separate structure, embed the requirement index directly in the test block description using a format like `[index] requirement`. This keeps everything simple and consolidated.
+Instead of a separate structure, embed the requirement index directly in the test block description using a format
+like `RequirementLocator: requirement itself`. This keeps everything simple and consolidated.
 
-## Index Convention
+## Naming Convention for Requirement's locators and descriptions
 
 Create a clear and simple convention for indexing requirements:
 
-- **Prefix**: `UI-` for UI requirements, `API-` for API requirements.
-- **Section Code**: Unique code for each section (e.g., `DASH-` for Dashboard).
-- **Requirement Number**: Hierarchical format, e.g., `1-1`.
+- **Locator**: You could use key words like `Page` for UI tests or `Flow` for e2e scenarios, provide additional locators for UI components and submodules.
+- **Requirement Description**: Define key words like `When` and `Should` or any other you want for more readability and automatic analyses of requirements
 
 ## Example
 
 Here's how you can embed requirements directly in your test descriptions:
 
 ```javascript
-describe('Dashboard Tests', () => {
-    it('[UI-DASH-1-1] should display the dashboard correctly', () => {
-        // Test code here
-    });
-    
-    it('[UI-DASH-2-1] should filter results correctly', () => {
-        // Test code here
-    });
-});
+    describe('DashboardPage', () => {
+        context('DashboardPage.List: When user navigates to the page', () => {
+            before(()=>{
+                // Do actions, prepare conditions
+            });
+            it('DashboardPage.List: Should show list of applications', () => {
+                // Test the requirement
+            });
+            it('DashboardPage.List: Should show output sorted alphabetically', () => {
+                // Test the requirement
+            });
+        });
+    }); 
 ```
 
 ## Integrating Requirements with Cypress
 
 To integrate with Cypress:
 
-1. **Define a clear index convention**.
-2. **Granulate your requirements**.
-3. **Embed the requirement index in each `it` block**.
-4. **Track coverage and identify gaps using the index**.
-5. **Regularly update requirements and tests together**.
+1. **Define a clear naming convention for requirements and conditions and for locators to easely find the related part of application**.
+2. **Granulate your requirements, ideally one requirement should have one verification statement**.
+3. **Follow the naming conventions and provide descriptions in each `describe`, `context` and `it` block, provide empty `it` blocks for non-implemented tests**.
+4. **Gather similar requirements, track coverage based on requirements and identify gaps using the requirement locators and automated scripts**.
 
-This method simplifies the process, enhances traceability, and improves test coverage accuracy, all without needing a separate hierarchical structure.
+_
+This method simplifies the process, enhances traceability, and improves test coverage accuracy, all without needing a
+separate hierarchical structure of requirements.
 
 ## References
 

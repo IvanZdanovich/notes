@@ -6,8 +6,9 @@ This repository is dedicated to sharing my personal views and ideas, primarily f
 
 - [Test Automation Doesn't Work](Testing/test-automation-does-not-work.md)
 - [Requirements integration practical approach](Testing/requirements-integration-practical-approach.md)
-- [Naming Conventions First](Testing/naming-convention-first.md)
+- [Naming Conventions First: Are You Ignoring This Crucial Step?](Testing/naming-convention-first.md)
 - [Test Tagging Strategy Without Tags](Testing/tagging-strategy.md)
+- [The Golden Rule of Automated Testing: Are You Violating It?](Testing/golden-rule-of-automated-testing.md)
 
 ### Usage
 
