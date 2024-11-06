@@ -17,7 +17,7 @@ your project might be falling short:
    functions, and methods are crucial. Without them, understanding what part of the application a test verifies becomes
    difficult. Inconsistent naming is like making a pizza with whatever ingredients are currently in the fridge, leading
    to a chaotic and unstructured test suite. Here is my
-   article: [Naming Conventions First: Are You Ignoring This Crucial Step?](naming-convention-first.md)
+   article: [Stop Sabotaging Your Tests: The Crucial Role of Naming Conventions](naming-convention)
 
 5. **Outdated Test Cases**: If you can't remember the last time you updated an automated test case, it means your test
    suite is managing you, not the other way around. Modern projects require continuous updates to test cases to reflect

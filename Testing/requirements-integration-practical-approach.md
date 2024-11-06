@@ -102,5 +102,5 @@ separate hierarchical structure of requirements.
 ## References
 
 - Original Article: [Integrating Requirements into the Codebase](integrating-requirements-into-codebase.md)
-- Naming Conventions: [Naming Convention First](naming-convention-first.md)
+- Naming Conventions: [Stop Sabotaging Your Tests: The Crucial Role of Naming Conventions](naming-convention)
 - Tagging Strategy: [Tagging Strategy](tagging-strategy.md)
