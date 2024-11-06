@@ -26,8 +26,7 @@ recipe. This inconsistency would lead to confusion and mistakes. Proper naming c
 ensuring each term has a single, clear definition.
 
 You might think it's tedious to establish and follow these patterns, but the reality is, proper naming conventions are
-the backbone of a well-structured project, especially for automated tests. So, when someone suggests implementing naming
-conventions, just "let him cook" – it will pay off in the long run.
+the backbone of a well-structured project, especially for automated tests.
 
 Let's consider examples of tests with and without defined naming conventions.
 
@@ -91,7 +90,7 @@ aesthetics; it's about functionality and efficiency.
 
 ## The Benefits You Can't Ignore
 
-1. Well-structured Code: By defining naming conventions, you are pushed to structure the tests accordingly. All
+1. **Well-structured Code**: By defining naming conventions, you are pushed to structure the tests accordingly. All
    definitions, titles of instances, and names of files, methods, or tests can be aligned.
 2. **Automation of Internal Checks and Scripts**: With proper naming conventions, you can automate internal checks and
    scripts that manage your test suite. This means less manual intervention and more reliable processes.
@@ -105,8 +104,7 @@ aesthetics; it's about functionality and efficiency.
    spend hours deciphering what a test is supposed to do; the name tells you everything you need to know.
 7. **Improved Metrics**: With clear, consistent rules, your test metrics make sense. You can track performance, identify
    bottlenecks, and make informed decisions based on accurate data.
-8. **Reduced Mental Load**: Let’s be honest, coming up with names for tests can be mentally exhausting. With a solid
-   naming convention, you don’t have to reinvent the wheel every time.
+8. **Reduced Mental Load**: With a solid naming convention, you don’t have to reinvent the wheel every time.
 
 ## The Challenge
 

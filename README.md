@@ -5,10 +5,11 @@ This repository is dedicated to sharing my personal views and ideas, primarily f
 ## You Might Be Interested In
 
 - [Test Automation Doesn't Work](Testing/test-automation-does-not-work.md)
-- [Requirements integration practical approach](Testing/requirements-integration-practical-approach.md)
 - [Stop Sabotaging Your Tests: The Crucial Role of Naming Conventions](Testing/naming-convention)
-- [Test Tagging Strategy Without Tags](Testing/tagging-strategy.md)
 - [The Golden Rule of Automated Testing: Are You Violating It?](Testing/golden-rule-of-automated-testing.md)
+- [Requirements integration practical approach](Testing/requirements-integration-practical-approach.md)
+- [Test Tagging Strategy Without Tags](Testing/tagging-strategy.md)
+
 
 ### Usage
 
