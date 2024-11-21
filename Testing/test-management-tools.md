@@ -45,8 +45,7 @@ While there are significant drawbacks, there are a few potential benefits to usi
 To avoid the pitfalls of test management tools, consider the following alternatives:
 
 1. **Cover Requirements, Not Manual Tests**: Focus on covering the requirements, not the manual test cases.
-   Details: [The Worthlessness of Automating Manual Test Cases](cover-requirements-not-tests.md). Practical
-   example review here: [Integrating Requirements into the Codebase: A Practical Guide with Cypress](requirements-integration-practical-approach.md).
+   Details: [The Worthlessness of Automating Manual Test Cases](cover-requirements-not-tests.md).
 2. **Keep Tests Small and Focused**: Make your automated tests as small and focused as possible. Here I described the
    issue: [The Golden Rule of Automated Testing: Are You Violating It?](golden-rule-of-automated-testing.md).
 3. **Define Structure and Naming Conventions**: Since you will have a lot of atomic checks, it is crucial to define the
@@ -56,9 +55,9 @@ To avoid the pitfalls of test management tools, consider the following alternati
    here: [Test Tagging Strategy Without Tags](tagging-strategy.md).
 4. **Custom Scripts**: Develop custom scripts to handle test management and reporting. This approach can be
    tailored to your specific needs and is often more efficient, e.g., for tracking requirements that were not checked.
-5. **Version Control Systems**: Use version control systems like Git to manage test cases. This approach provides
-   traceability, collaboration, and integration with CI/CD pipelines. Moreover, describing non-implemented tests can
-   also be managed efficiently.
+5. **Store Requirements in Codebase**: Write self-descriptive tests and use version control systems like Git to store
+   your requirements in the codebase. Practical example review
+   here: [Integrating Requirements into the Codebase: A Practical Guide with Cypress](requirements-integration-practical-approach.md).
 
 ## Conclusion
 
