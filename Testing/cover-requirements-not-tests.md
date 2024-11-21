@@ -19,8 +19,8 @@ based on the number of implemented test cases. Here's why this approach is flawe
 2. **Maintenance Risks**: There is a huge risk that after an update to the functionality under test, the test cases
    themselves won't be updated accordingly.
 3. **Tool Dependency**: It pushes you to use test management tools and integrate them into your test automation. More
-   about the worthlessness of such tools and the risks of usage can be read here: Useless and Expensive Test Management
-   Tools.
+   about the worthlessness of such tools and the risks of usage can be read here: [Useless and Expensive Test Management
+   Tools](test-management-tools.md).
 4. **Imprecise Metrics**: All metrics based on such automation, from coverage to time spent, are not truly precise and
    therefore useless.
 5. **Useless Reports**: You will not have a chance to understand the issue by the generic name of a failed test case.
