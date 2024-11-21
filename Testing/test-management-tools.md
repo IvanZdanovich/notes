@@ -20,7 +20,8 @@ different from automated tests. This misalignment leads to several problems:
    visualized using any office software.
 2. **Misalignment with Goals**: Test management tools can confuse and divert automation resources from the main
    goal—covering requirements, not manual test cases. This often leads to the typical mistake of covering manual test
-   cases. More details can be found here: Cover Requirements, Not Tests.
+   cases. More details can be found
+   here: [The Worthlessness of Automating Manual Test Cases](cover-requirements-not-tests.md).
 3. **Cost**: These tools cost money. While the cost might not be exorbitant, why pay for something unnecessary?
 4. **Complexity**: These tools often have steep learning curves and require significant time and effort to set up and
    maintain.
@@ -44,14 +45,17 @@ While there are significant drawbacks, there are a few potential benefits to usi
 
 To avoid the pitfalls of test management tools, consider the following alternatives:
 
-1. **Cover Requirements, Not Manual Tests**: Focus on covering the requirements, not the manual test cases. Details: [The Worthlessness of Automating Manual Test Cases](cover-requirements-not-tests.md).Practical
-   example review here: [Integrating Requirements into the Codebase: A Practical Guide with Cypress](requirements-integration-practical-approach.md).
+1. **Cover Requirements, Not Manual Tests**: Focus on covering the requirements, not the manual test cases.
+   Details: [The Worthlessness of Automating Manual Test Cases](cover-requirements-not-tests.md).Practical
+   example review
+   here: [Integrating Requirements into the Codebase: A Practical Guide with Cypress](requirements-integration-practical-approach.md).
 2. **Keep Tests Small and Focused**: Make your automated tests as small and focused as possible. Here I described the
    issue: [The Golden Rule of Automated Testing: Are You Violating It?](golden-rule-of-automated-testing.md).
 3. **Define Structure and Naming Conventions**: Since you will have a lot of atomic checks, it is crucial to define the
    structure of tests and follow it. The first action is to define responsibility or scope for automated tests. Based on
    that, define and describe naming conventions. Here are details: [Stop Sabotaging Your Tests: The Crucial Role of
-   Naming Conventions](naming-convention.md). Avoid using generic tags; read more about the issue here: [Test Tagging Strategy Without Tags](tagging-strategy.md).
+   Naming Conventions](naming-convention.md). Avoid using generic tags; read more about the issue
+   here: [Test Tagging Strategy Without Tags](tagging-strategy.md).
 4. **Custom Scripts**: Develop custom scripts to handle test management and reporting. This approach can be
    tailored to your specific needs and is often more efficient, e.g., for tracking requirements that were not checked.
 5. **Version Control Systems**: Use version control systems like Git to manage test cases. This approach provides
