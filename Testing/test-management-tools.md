@@ -20,8 +20,7 @@ different from automated tests. This misalignment leads to several problems:
    visualized using any office software.
 2. **Misalignment with Goals**: Test management tools can confuse and divert automation resources from the main
    goal—covering requirements, not manual test cases. This often leads to the typical mistake of covering manual test
-   cases. More details can be found
-   here: [The Worthlessness of Automating Manual Test Cases](cover-requirements-not-tests.md).
+   cases.
 3. **Cost**: These tools cost money. While the cost might not be exorbitant, why pay for something unnecessary?
 4. **Complexity**: These tools often have steep learning curves and require significant time and effort to set up and
    maintain.
@@ -46,9 +45,8 @@ While there are significant drawbacks, there are a few potential benefits to usi
 To avoid the pitfalls of test management tools, consider the following alternatives:
 
 1. **Cover Requirements, Not Manual Tests**: Focus on covering the requirements, not the manual test cases.
-   Details: [The Worthlessness of Automating Manual Test Cases](cover-requirements-not-tests.md).Practical
-   example review
-   here: [Integrating Requirements into the Codebase: A Practical Guide with Cypress](requirements-integration-practical-approach.md).
+   Details: [The Worthlessness of Automating Manual Test Cases](cover-requirements-not-tests.md). Practical
+   example review here: [Integrating Requirements into the Codebase: A Practical Guide with Cypress](requirements-integration-practical-approach.md).
 2. **Keep Tests Small and Focused**: Make your automated tests as small and focused as possible. Here I described the
    issue: [The Golden Rule of Automated Testing: Are You Violating It?](golden-rule-of-automated-testing.md).
 3. **Define Structure and Naming Conventions**: Since you will have a lot of atomic checks, it is crucial to define the
