@@ -19,8 +19,8 @@ based on the number of implemented test cases. Here's why this approach is flawe
 2. **Maintenance Risks**: There is a huge risk that after an update to the functionality under test, the test cases
    themselves won't be updated accordingly.
 3. **Tool Dependency**: It pushes you to use test management tools and integrate them into your test automation. More
-   about the worthlessness of such tools and the risks of usage can be read here: [Useless and Expensive Test Management
-   Tools](test-management-tools.md).
+   about the worthlessness of such tools and the risks of usage can be read
+4. here: [Useless and Expensive Test Management Tools](test-management-tools.md).
 4. **Imprecise Metrics**: All metrics based on such automation, from coverage to time spent, are not truly precise and
    therefore useless.
 5. **Useless Reports**: You will not have a chance to understand the issue by the generic name of a failed test case.
@@ -50,13 +50,16 @@ If you automate all the manual test cases regardless of the price and common sen
 Here are some tips to help you avoid my mistakes:
 
 1. **Cover Requirements, Not Manual Tests**: Focus on covering the requirements, not the manual test cases. Practical
-   example review here: [Integrating Requirements into the Codebase: A Practical Guide with Cypress](requirements-integration-practical-approach.md).
+   example review
+   here: [Integrating Requirements into the Codebase: A Practical Guide with Cypress](requirements-integration-practical-approach.md).
 2. **Keep Tests Small and Focused**: Make your automated tests as small and focused as possible. Here I described the
    issue: [The Golden Rule of Automated Testing: Are You Violating It?](golden-rule-of-automated-testing.md).
 3. **Define Structure and Naming Conventions**: Since you will have a lot of atomic checks, it is crucial to define the
    structure of tests and follow it. The first action is to define responsibility or scope for automated tests. Based on
-   that, define and describe naming conventions. Here are details: [Stop Sabotaging Your Tests: The Crucial Role of
-   Naming Conventions](naming-convention.md). Avoid using generic tags; read more about the issue here: [Test Tagging Strategy Without Tags](tagging-strategy.md).
+   that, define and describe naming conventions. Here are
+   details: [Stop Sabotaging Your Tests: The Crucial Role of Naming Conventions](naming-convention.md). Avoid using
+   generic tags; read more about the issue
+   here: [Test Tagging Strategy Without Tags](tagging-strategy.md).
 
 ## Conclusion
 
