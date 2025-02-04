@@ -6,7 +6,7 @@ This repository is dedicated to sharing my personal views and ideas, primarily f
 
 - [Test Automation Doesn't Work](Testing/test-automation-does-not-work.md)
 - [This World is Doomed While You Write Test Cases](Testing/throw-away-test-cases.md)
-- [The Worthlessness of Automating Manual Test Cases](Testing/cover-requirements-not-tests.md)
+- [The Worthlessness of Automating Manual Test Cases](Testing/automate-specifications-not-tests)
 - [The Uselessness and High Cost of Test Management Tools](Testing/test-management-tools.md)
 - [Stop Sabotaging Your Tests: The Crucial Role of Naming Conventions](Testing/naming-convention)
 - [The Golden Rule of Automated Testing: Are You Violating It?](Testing/golden-rule-of-automated-testing.md)
