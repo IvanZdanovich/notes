@@ -44,8 +44,8 @@ While there are significant drawbacks, there are a few potential benefits to usi
 
 To avoid the pitfalls of test management tools, consider the following alternatives:
 
-1. **Cover Requirements, Not Manual Tests**: Focus on covering the requirements, not the manual test cases.
-   Details: [The Worthlessness of Automating Manual Test Cases](cover-requirements-not-tests.md).
+1. **Cover Specifications, Not Manual Tests**: Focus on covering the requirements, not the manual test cases.
+   Details: [The Worthlessness of Automating Manual Test Cases](automate-specifications-not-tests).
 2. **Keep Tests Small and Focused**: Make your automated tests as small and focused as possible. Here I described the
    issue: [The Golden Rule of Automated Testing: Are You Violating It?](golden-rule-of-automated-testing.md).
 3. **Define Structure and Naming Conventions**: Since you will have a lot of atomic checks, it is crucial to define the
