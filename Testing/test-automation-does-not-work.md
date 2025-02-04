@@ -35,19 +35,21 @@ your project might be falling short:
    more details, check out my approach
    in [Integrating Requirements into the Codebase](requirements-integration-practical-approach.md).
 
-8. **Multiple Checks in One Block**: Follow the rule of one requirement per check. Checks should be atomic and granular.
+4. **Multiple Checks in One Block**: Follow the rule of one requirement per check. Checks should be atomic and granular.
    Without this, any metrics based on tests, from coverage to duration, will be inaccurate, and maintaining test cases
    will become an endless task. Here is my
    article: [The Golden Rule of Automated Testing: Are You Violating It?](golden-rule-of-automated-testing.md)
 
-9. **Lack of a Test Repository Pipeline**: Without a pipeline for your test repository, you can't ensure the quality of
+5. **Lack of a Test Repository Pipeline**: Without a pipeline for your test repository, you can't ensure the quality of
    tests or track their condition after updates.
 
 ### Subsequencies or characteristics of typical automation that can not
 
-1. **Inconsistent Pass Rate**: If you don't have a 100% pass rate, it's a straightforward health check failure. Any
-   failing tests should immediately trigger bug reports or fixes for flaky tests. Otherwise, your CI/CD process will
-   likely require manual approvals, leading to policy bypasses and delays in product delivery.
+1. Complexity of Test Solution: The complexity of the test solution requires a lot of dedicated development resources
+   for implementation, maintenance, and onboarding. 
+2. Blocks the Delivery: Time-consuming testing phases with inconsistent and unclear results often block the CI/CD process, requiring
+   manual approvals and reviews. 
+3. Low Value: Most of the uncovered issues have minor priority, and the number of issues is low as well.
 
 ### Summary
 
