@@ -12,6 +12,7 @@ This repository is dedicated to sharing my personal views and ideas, primarily f
 - [The Golden Rule of Automated Testing: Are You Violating It?](Testing/golden-rule-of-automated-testing.md)
 - [Requirements integration practical approach](Testing/requirements-integration-practical-approach.md)
 - [Test Tagging Strategy Without Tags](Testing/tagging-strategy.md)
+- [Cypress-based test automation framework](Testing/cypress-start.md)
 
 
 ### Usage
