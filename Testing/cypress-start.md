@@ -37,6 +37,12 @@ defined naming conventions and writing guidelines, ensuring code quality and mai
 Automated pre-commit hooks analyze code quality, blocking commits that fail to meet predefined thresholds. This ensures
 that only high-quality code is merged into the repository.
 
+### Ready-to-Run Test Examples
+
+The framework includes pre-built Cypress tests based on [SauceDemo](https://www.saucedemo.com), allowing users to run tests immediately without
+additional setup. Whether testing login flows, shopping cart interactions, or checkout processes, these examples serve
+as a practical starting point for automation.
+
 ## Why It Stands Out
 
 This framework is not just about running tests—it's about creating a sustainable testing ecosystem. By focusing on
