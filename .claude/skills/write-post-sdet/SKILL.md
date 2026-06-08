@@ -25,8 +25,10 @@ MARKETING: none; authentic and direct
 
 ## Content
 
-ANGLE: one clear point per post — lesson, opinion, short story, or tip
+ANGLE: one clear point per post — lesson, opinion, short story, or tip; prefer myth-busting when applicable
 SCENARIOS: grounded in real experience — a mistake made, a pattern noticed, a decision taken
+ANALOGIES: use obvious, even absurd real-life comparisons to ground abstract concepts; prefer everyday situations
+HIDDEN_MISTAKES: when the post calls out a bad practice, name the cost — make the mistake visible, not just wrong
 CODE: only if a snippet is the entire point; keep it 5–10 lines max
 THEORY: skip it; let the story or example carry the insight
 
@@ -34,13 +36,14 @@ THEORY: skip it; let the story or example carry the insight
 
 ENGLISH_LEVEL: upper-intermediate; natural, readable
 SENTENCE_LENGTH: short; punchy preferred over complex
-JARGON: minimal; only what the audience uses daily
+JARGON: minimal; daily
 
 ## Tone
 
-STANCE: honest, direct, personal
+STANCE: honest, direct, personal; sharp and sarcastic when calling out cargo-cult practices or buzzword dogma
 PERSPECTIVE: practitioner sharing experience, not instructor lecturing
 EMOTION: allowed in moderation — frustration, surprise, conviction add authenticity
+SARCASM: use to expose the absurdity of a bad idea
 HYPE: none
 
 ## Output
@@ -54,4 +57,5 @@ FRONT_MATTER: H2 title or plain title line; no metadata needed
 HOOK_CHECK: first sentence creates curiosity or stakes
 SINGLE_POINT_CHECK: post makes exactly one argument or shares one insight
 TRIM_CHECK: remove any sentence that could be cut without losing meaning
-
+ANALOGY_CHECK: if an abstract concept is present, it has at least one grounded example or analogy
+MYTH_CHECK: if the post challenges a trend, the flaw is shown with a concrete example, not just stated
