@@ -64,28 +64,25 @@ Here is the example of a skill for creating new skills in a compact, rule-based 
 ```markdown
 ---
 name: create-skill
-description: create or update skill files in .claude/skills using compact rule-based format
+description: Use when creating or updating a skill file in `.claude/skills/`. Produces compact, tag-based instruction files that follow the project ruleset.
 ---
 
-PURPOSE: produce SKILL.md with minimal tokens
-SCOPE: .claude/skills/<name>/SKILL.md
-LOCATION: .claude/skills/<name>/SKILL.md
-FRONTMATTER: name kebab-case, description single-line trigger
-HEADING_LEVELS: H1 title, H2 sections
-TAG_FORMAT: UPPER_SNAKE_CASE: value
+PURPOSE: guide production of token-efficient SKILL.md
+SCOPE: `.claude/skills/<skill-name>/SKILL.md`
+FRONTMATTER: `name` (kebab-case), `description` (one-line trigger sentence)
+HEADING_LEVELS: H1 skill title, H2 major sections
+TAG_FORMAT: `UPPER_SNAKE_CASE: value`
 TAG_COUNT: one rule per line
-LIST_STYLE: comma-separated values
-CODE_STYLE: fenced blocks only for structure
-TAG_STYLE: noun-based, stable vocabulary
-FRAMING: describe desired patterns, not restrictions
-SCOPE_SPECIFICITY: single responsibility per skill
-EXAMPLE_DENSITY: max one code block
-REFERENCE_LINKS: reference instead of duplicating
-TAG_CHECK: uppercase snake case, single rule per line
-FRAMING_CHECK: positive pattern-based rules
-TOKEN_CHECK: no filler, no narrative
-SCOPE_CHECK: description matches trigger
-PATH_CHECK: declared paths must exist
+TAG_STYLE: desired pattern as noun tag, positive framing, stable vocabulary
+LIST_STYLE: comma-separated inline for compact sets
+SCOPE_SPECIFICITY: one skill per responsibility, no overlapping scopes
+
+TAG_CHECK: UPPER_SNAKE_CASE, one rule per line, noun-led
+FRAMING_CHECK: positive guidance and desired patterns throughout
+TOKEN_CHECK: no filler phrases, no narrative prose
+SCOPE_CHECK: frontmatter `description` matches the skill's actual trigger
+PATH_CHECK: declared paths exist in the workspace
+
 ```
 
 This format is:

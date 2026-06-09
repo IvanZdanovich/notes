@@ -3,30 +3,15 @@ name: create-skill
 description: Use when creating or updating a skill file in `.claude/skills/`. Produces compact, tag-based instruction files that follow the project ruleset.
 ---
 
-# Create skill
-
 PURPOSE: guide production of token-efficient SKILL.md
 SCOPE: `.claude/skills/<skill-name>/SKILL.md`
-
-# File conventions
-
-LOCATION: `.claude/skills/<kebab-case-name>/SKILL.md`
 FRONTMATTER: `name` (kebab-case), `description` (one-line trigger sentence)
 HEADING_LEVELS: H1 skill title, H2 major sections
 TAG_FORMAT: `UPPER_SNAKE_CASE: value`
 TAG_COUNT: one rule per line
+TAG_STYLE: desired pattern as noun tag, positive framing, stable vocabulary
 LIST_STYLE: comma-separated inline for compact sets
-CODE_STYLE: fenced blocks for structural examples only
-
-# Guardrails
-
-TAG_STYLE: noun tags, positive framing, stable vocabulary
-FRAMING: desired pattern as tag value, not forbidden pattern
 SCOPE_SPECIFICITY: one skill per responsibility, no overlapping scopes
-EXAMPLE_DENSITY: one code block max, only when structure is non-obvious
-REFERENCE_LINKS: point to instruction files, not inline prose copies
-
-# Review checks
 
 TAG_CHECK: UPPER_SNAKE_CASE, one rule per line, noun-led
 FRAMING_CHECK: positive guidance and desired patterns throughout
