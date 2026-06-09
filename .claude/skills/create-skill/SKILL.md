@@ -5,7 +5,7 @@ description: Use when creating or updating a skill file in `.claude/skills/`. Pr
 
 # Create skill
 
-PURPOSE: produce SKILL.md that guides code generation with minimal tokens
+PURPOSE: guide production of token-efficient SKILL.md
 SCOPE: `.claude/skills/<skill-name>/SKILL.md`
 
 # File conventions
