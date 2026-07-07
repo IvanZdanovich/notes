@@ -4,22 +4,22 @@ This repository is dedicated to sharing my personal views and ideas, primarily f
 
 ## Testing
 
-- [Test Automation Doesn't Work](Testing/test-automation-does-not-work.md)
-- [This World is Doomed While You Write Test Cases](Testing/throw-away-test-cases.md)
-- [The Worthlessness of Automating Manual Test Cases](Testing/automate-specifications-not-tests.md)
-- [The Uselessness and High Cost of Test Management Tools](Testing/test-management-tools.md)
-- [Stop Sabotaging Your Tests: The Crucial Role of Naming Conventions](Testing/naming-convention.md)
-- [The Golden Rule of Automated Testing: Are You Violating It?](Testing/golden-rule-of-automated-testing.md)
-- [Integrating Requirements into the Codebase: Pros, Cons, and a Practical Guide with Cypress](Testing/integrating-requirements-into-codebase.md)
-- [Integrating Requirements into the Codebase: A Practical Guide with Cypress](Testing/requirements-integration-practical-approach.md)
-- [Test Tagging Strategy Without Tags](Testing/tagging-strategy.md)
-- [Introducing My Cypress-Based Test Automation Framework](Testing/cypress-start.md)
-- [Normalizing AI Code Generation](Testing/normalizing-ai-code-generation.md)
+- [Test Automation Doesn't Work](articles/test-automation-does-not-work.md)
+- [This World is Doomed While You Write Test Cases](articles/throw-away-test-cases.md)
+- [The Worthlessness of Automating Manual Test Cases](articles/automate-specifications-not-tests.md)
+- [The Uselessness and High Cost of Test Management Tools](articles/test-management-tools.md)
+- [Stop Sabotaging Your Tests: The Crucial Role of Naming Conventions](articles/naming-convention.md)
+- [The Golden Rule of Automated Testing: Are You Violating It?](articles/golden-rule-of-automated-testing.md)
+- [Integrating Requirements into the Codebase: Pros, Cons, and a Practical Guide with Cypress](articles/integrating-requirements-into-codebase.md)
+- [Integrating Requirements into the Codebase: A Practical Guide with Cypress](articles/requirements-integration-practical-approach.md)
+- [Test Tagging Strategy Without Tags](articles/tagging-strategy.md)
+- [Introducing My Cypress-Based Test Automation Framework](articles/cypress-start.md)
+- [Normalizing AI Code Generation](articles/normalizing-ai-code-generation.md)
 
 ## Blog Posts
 
-- [AI Scares Me – and That's a Good Thing](blog-posts/ai-scary-me.md)
-- [Locator Choice: You Don't Eliminate Fragility. You Just Move It Somewhere Else.](blog-posts/locator-strategy-testid-vs-a11y.md)
+- [AI Scares Me – and That's a Good Thing](posts/ai-scary-me.md)
+- [Locator Choice: You Don't Eliminate Fragility. You Just Move It Somewhere Else.](posts/locator-strategy-testid-vs-a11y.md)
 
 ## General
 
