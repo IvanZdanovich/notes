@@ -20,6 +20,7 @@ This repository is dedicated to sharing my personal views and ideas, primarily f
 
 - [AI Scares Me – and That's a Good Thing](posts/ai-scary-me.md)
 - [Locator Choice: You Don't Eliminate Fragility. You Just Move It Somewhere Else.](posts/locator-strategy-testid-vs-a11y.md)
+- [Why Skill Files Just Made Your Documentation Obsolete](posts/skills-are-the-new-documentation.md)
 
 ## General
 
